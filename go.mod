@@ -1,4 +1,4 @@
-module github.com/ZeljkoBenovic/go-http-monitor
+module github.com/ZeljkoBenovic/go-notify
 
 go 1.17
 

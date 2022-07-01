@@ -2,9 +2,9 @@ package http
 
 import (
 	"fmt"
-	"github.com/ZeljkoBenovic/go-http-monitor/config"
-	"github.com/ZeljkoBenovic/go-http-monitor/monitor/common"
-	notifyCommon "github.com/ZeljkoBenovic/go-http-monitor/notify/common"
+	"github.com/ZeljkoBenovic/go-notify/config"
+	"github.com/ZeljkoBenovic/go-notify/monitor/common"
+	notifyCommon "github.com/ZeljkoBenovic/go-notify/notify/common"
 	"github.com/hashicorp/go-hclog"
 	"io"
 	"io/ioutil"

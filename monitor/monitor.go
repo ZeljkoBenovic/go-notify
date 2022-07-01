@@ -3,9 +3,9 @@ package monitor
 import (
 	"errors"
 	"fmt"
-	"github.com/ZeljkoBenovic/go-http-monitor/config"
-	monitorCommon "github.com/ZeljkoBenovic/go-http-monitor/monitor/common"
-	monitorHttp "github.com/ZeljkoBenovic/go-http-monitor/monitor/http"
+	"github.com/ZeljkoBenovic/go-notify/config"
+	monitorCommon "github.com/ZeljkoBenovic/go-notify/monitor/common"
+	monitorHttp "github.com/ZeljkoBenovic/go-notify/monitor/http"
 )
 
 // available notification services

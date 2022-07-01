@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZeljkoBenovic/go-http-monitor/config"
-	"github.com/ZeljkoBenovic/go-http-monitor/monitor"
-	"github.com/ZeljkoBenovic/go-http-monitor/notify"
+	"github.com/ZeljkoBenovic/go-notify/config"
+	"github.com/ZeljkoBenovic/go-notify/monitor"
+	"github.com/ZeljkoBenovic/go-notify/notify"
 	"os"
 )
 

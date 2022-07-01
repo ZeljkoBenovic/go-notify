@@ -3,10 +3,10 @@ package notify
 import (
 	"errors"
 	"fmt"
-	"github.com/ZeljkoBenovic/go-http-monitor/config"
-	"github.com/ZeljkoBenovic/go-http-monitor/notify/common"
-	"github.com/ZeljkoBenovic/go-http-monitor/notify/email"
-	"github.com/ZeljkoBenovic/go-http-monitor/notify/slack"
+	"github.com/ZeljkoBenovic/go-notify/config"
+	"github.com/ZeljkoBenovic/go-notify/notify/common"
+	"github.com/ZeljkoBenovic/go-notify/notify/email"
+	"github.com/ZeljkoBenovic/go-notify/notify/slack"
 )
 
 // available notifier service names

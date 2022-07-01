@@ -1,7 +1,7 @@
 package common
 
 import (
-	"github.com/ZeljkoBenovic/go-http-monitor/config"
+	"github.com/ZeljkoBenovic/go-notify/config"
 )
 
 // INotifier is an interface that all notification services need to implement

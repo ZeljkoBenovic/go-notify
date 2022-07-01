@@ -1,8 +1,8 @@
 package common
 
 import (
-	"github.com/ZeljkoBenovic/go-http-monitor/config"
-	"github.com/ZeljkoBenovic/go-http-monitor/notify/common"
+	"github.com/ZeljkoBenovic/go-notify/config"
+	"github.com/ZeljkoBenovic/go-notify/notify/common"
 )
 
 type IMonitor interface {
