@@ -1,0 +1,28 @@
+monitored_services:
+    http:
+        - endpoint: "<web_endpoint>
+          expected_response: "<http_responce_to_look_for>""
+
+        - endpoint: "<web_endpoint_2>
+          expected_response: "<http_responce_to_look_for_2>"
+
+notify_service: email
+interval: 300
+timeout: 60
+log_level: INFO
+log_filename: ""
+notification_services:
+    email:
+        to: [ email@email1.com, email@email2.com ]
+        cc: [ email@example.com ]
+        bcc: [ ]
+        from: sender@email.com
+        subject: '[GONOTIFY] CLOUDPBX SERVICE ENTERED AN ALARM STATE'
+        body: ""
+        auth_user: <auth_user_for_smtp>
+        auth_pass: <auth_pass_for_smtp>
+        smtp_server: <smtp_server>
+        smtp_port: <smtp_port>
+        use_auth: true
+    slack:
+        webhook: ""
